@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Car Quiz- W1761350</string>
+    <string name="identify_the_car_make">Identify the Car Make</string>
+    <string name="all_about_cars">All about Cars!</string>
+    <string name="hints">Hints</string>
+    <string name="identify_the_car_image">Identify the Car Image</string>
+    <string name="advanced_level">Advanced Level</string>
+    <string name="timer_spice">Add some extra spice to your game!</string>
+    <string name="timer">Timer</string>
+    <string name="random_chosen_car">Randomly chosen car</string>
+    <string name="identify_the_car_make_challenge_title">Identify the Car Make Challenge!</string>
+    <string name="button_next_text">Next</string>
+    <string name="select_prompt">Select the car make guess</string>
+    <string name="button_before">Identify</string>
+    <string name="correct_string">CORRECT!</string>
+    <string name="wrong_string">WRONG!</string>
+    <string name="hintPrompt">Enter a single letter as your guess</string>
+    <string name="submit">Submit</string>
+    <string name="hintsTitle">The Hints Challenge!</string>
+    <string name="identify_image_heading">Identify the car image challenge!</string>
+    <string name="image_one_description">Image One</string>
+    <string name="image_two_description">Image Two</string>
+    <string name="image_three_description">Image Three</string>
+    <string name="image_description">Select the car image corresponding</string>
+    <string name="advanced_before_string">Type your guess</string>
+    <string name="advanced_score_title">Score</string>
+    <string name="enter_answer">Please enter your answer</string>
+    <string name="timer_front">00</string>
+    <string name="timer_complete">Opps! The timer won!</string>
+    <string name="time_up">TIME UP!</string>
+    <string name="two_digit_timer">00:</string>
+    <string name="timer_victory">Oops! The timer claims victory!</string>
+    <string name="exit_button">exit-button</string>
+    <string name="advanced_title">The Advanced Challenge!</string>
+    <string name="zero_score">00</string>
+</resources>

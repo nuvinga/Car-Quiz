@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3F2FD">
+
+    <TextView
+        android:id="@+id/advancedTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/advanced_title"
+        android:textColor="#0D47A1"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.08" />
+
+    <ImageView
+        android:id="@+id/advancedImage1"
+        android:layout_width="130dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advancedTitle"
+        app:layout_constraintVertical_bias="0.15"
+        app:srcCompat="@drawable/toyota_1"
+        android:contentDescription="@string/random_chosen_car" />
+
+    <EditText
+        android:id="@+id/advancedEditText1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@+id/advancedImage1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/advancedImage1"
+        app:layout_constraintTop_toTopOf="@+id/advancedImage1"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/advancedText1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/advanced_before_string"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/advancedEditText1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/advancedImage1"
+        app:layout_constraintTop_toTopOf="@+id/advancedImage1" />
+
+    <ImageView
+        android:id="@+id/advancedImage2"
+        android:layout_width="130dp"
+        android:layout_height="90dp"
+        android:contentDescription="@string/random_chosen_car"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advancedImage1"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/audi_1" />
+
+    <EditText
+        android:id="@+id/advancedEditText2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@+id/advancedImage2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/advancedImage2"
+        app:layout_constraintTop_toTopOf="@+id/advancedImage2"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+
+    <ImageView
+        android:id="@+id/advancedImage3"
+        android:layout_width="130dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advancedImage2"
+        app:layout_constraintVertical_bias=".09"
+        app:srcCompat="@drawable/mercedes_1"
+        android:contentDescription="@string/random_chosen_car" />
+
+    <TextView
+        android:id="@+id/advancedText2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/advanced_before_string"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/advancedEditText2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/advancedImage2"
+        app:layout_constraintTop_toTopOf="@+id/advancedImage2" />
+
+    <TextView
+        android:id="@+id/advancedText3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:text="@string/advanced_before_string"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@+id/advancedEditText3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/advancedImage3"
+        app:layout_constraintTop_toTopOf="@+id/advancedImage3" />
+
+    <EditText
+        android:id="@+id/advancedEditText3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="@+id/advancedImage3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/advancedImage3"
+        app:layout_constraintTop_toTopOf="@+id/advancedImage3"
+        android:autofillHints=""
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/advancedCountdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/advancedImage1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advancedTitle"
+        app:layout_constraintVertical_bias="0.20" />
+
+    <TextView
+        android:id="@+id/advancedScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#00695C"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias=".98"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advancedScoreTitle"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/advancedScoreTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/advanced_score_title"
+        android:textColor="#00695C"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.01" />
+
+    <Button
+        android:id="@+id/advancedSubmitButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@color/beforeButton"
+        android:onClick="submitValidator"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advancedImage3"
+        app:layout_constraintVertical_bias="0.30" />
+
+    <TextView
+        android:id="@+id/rightAnswer1"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/answerColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/advancedImage1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/advancedImage1"
+        app:layout_constraintTop_toTopOf="@+id/advancedImage1" />
+
+    <TextView
+        android:id="@+id/rightAnswer2"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/answerColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/advancedImage2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/advancedImage2"
+        app:layout_constraintTop_toTopOf="@+id/advancedImage2" />
+
+    <TextView
+        android:id="@+id/rightAnswer3"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/answerColor"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/advancedImage3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/advancedImage3"
+        app:layout_constraintTop_toTopOf="@+id/advancedImage3" />
+
+    <TextView
+        android:id="@+id/attempsLeftText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/advancedSubmitButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/advancedImage3" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/advancedExitButton"
+        android:onClick="exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:backgroundTint="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.97"
+        app:srcCompat="@drawable/ic_exit_door"
+        tools:ignore="VectorDrawableCompat"
+        android:focusable="true"
+        android:contentDescription="@string/exit_button" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
